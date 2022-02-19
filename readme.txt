@@ -1,6 +1,8 @@
 1) Run-  npm install    it will install all dependent modules to run the project
 2) change the Connection String in env.js file for database connection
-3) use http://localhost:4000/generateToken -get api to generate token for accesing all user routes
+3) use http://localhost:4000/generateToken -post api to generate token for accesing all user routes
+  in body pass= {"username": "test", "password": "test@123!"}
+  
 4) use http://localhost:4000/users   -get, -post  (for getting all users and inserting a user)
 5) use http://localhost:4000/users/:id   -get, -put, -delete (use id not _id field as it was given project requirement)
 
